@@ -81,9 +81,9 @@ app.use('/', async function (req, res) {
 	try {
 		const embed = new MessageBuilder();
 
-		embed.setAuthor('Ko-fi', 'https://i.imgur.com/J0egcX2.png');
-		embed.setThumbnail('https://i.imgur.com/J0egcX2.png');
-		embed.setTitle('New supporter on Ko-fi ☕');
+		embed.setAuthor('Ko-fi', 'https://i.imgur.com/Gdq5lD7.png');
+		embed.setThumbnail('https://i.imgur.com/Gdq5lD7.png');
+		embed.setTitle('New donations on Ko-fi ☕');
 		if (kofi_username) embed.setURL(`https://ko-fi.com/${kofi_username}`);
 
 		switch (payload.tier_name) {
