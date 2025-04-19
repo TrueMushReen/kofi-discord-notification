@@ -82,7 +82,7 @@ app.use('/', async function (req, res) {
 		const embed = new MessageBuilder();
 
 		embed.setAuthor('Ko-fi', 'https://i.imgur.com/Gdq5lD7.png');
-		embed.setThumbnail('https://i.imgur.com/Gdq5lD7.png');
+		embed.setThumbnail('https://mas-reen.s-ul.eu/1aDbepT7');
 		embed.setTitle('New donations on Ko-fi ☕');
 		if (kofi_username) embed.setURL(`https://ko-fi.com/${kofi_username}`);
 
